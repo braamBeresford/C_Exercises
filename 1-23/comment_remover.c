@@ -20,7 +20,7 @@ int main(){
 					i++;
 			} else if (input[i] == '/' && input[i+1] == '*'){
 				while(input[i] != '\0' && input[i+1] != '\0' && (input[i] != '*' || input[i+1] != '/')) {
-					i+= 2;
+					i += 2;
 				}
 				if(input[i] == '*'){
 					i += 2;
